@@ -1,0 +1,54 @@
+.admin-dashboard {
+  display: flex;
+  min-height: 70vh;
+  background: #f7f7f7;
+}
+.admin-sidebar {
+  width: 220px;
+  background: #222;
+  color: #fff;
+  padding: 2rem 1rem;
+  min-height: 100%;
+}
+.admin-sidebar h2 {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.admin-sidebar li {
+  padding: 0.7rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.admin-sidebar li.active, .admin-sidebar li:hover {
+  background: #61dafb;
+  color: #222;
+}
+.admin-main {
+  flex: 1;
+  padding: 2rem;
+}
+.admin-main h3 {
+  margin-top: 0;
+}
+.admin-section-content {
+  margin-top: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* Use .card utility for consistent look */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
